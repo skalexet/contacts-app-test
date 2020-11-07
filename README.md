@@ -1,4 +1,4 @@
 # contacts-app-test
-vue.js and javascript app
+vue.js contact book app 
 
 created for TRLogic company as a employment test
