@@ -11,8 +11,7 @@ export function addFieldToContact(field) {
     updateFieldHistory(field);
 }
 
-//field editing block
-export function editField(id, input) {  
+export function editField(id, input) {  //field editing block  
     const contactData = getData();
 
     for (let field of contactData.fields) {
@@ -37,7 +36,7 @@ export function fieldBack(id) {        // undo implementation
     }
 }
 
-export function backToFirstValue(id) { // cancel implementation
+export function backToFirstValue(id) {  // cancel implementation
     const contactData = getData();
     for (let field of contactData.fields) {
         if (field.id == id) {
