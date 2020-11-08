@@ -1,9 +1,8 @@
- let contacts = [];
+let contacts = [];
             // here is the part that runs Home
 export function updateStorage(contact) {
     contacts.push(contact);
 }
-
 
 export function loadContacts() {
     return contacts;
