@@ -1,6 +1,6 @@
 import  { getData } from './infoState';
-        //this part treats the Info page
-export function addFieldToContact(field) {
+       
+export function addFieldToContact(field) {   //this part treats the Info page
     if ( field.value == '' || field.type == '' ) {
         return;
     }
