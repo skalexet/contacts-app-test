@@ -22,7 +22,7 @@ export function assignId(id) {
 export function getData() {
     for (let contactData of contactsStorage) {
         if (contactData.contact.id == currentId) {
-            return contactData;                      // much usefull function ._.
+            return contactData;
         }
     }
 }
