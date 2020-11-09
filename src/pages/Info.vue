@@ -43,6 +43,7 @@ export default {
       if ( input == '' || !input ) {
         return;
       }
+      
       editField(id, input);
       this.updateFieldsList();
     },
